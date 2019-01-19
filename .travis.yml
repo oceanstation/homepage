@@ -1,0 +1,33 @@
+# 只在指定分支提交时才会运行脚本
+branches:
+  only:
+    - master
+
+language: node_js
+
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+  - npm install -g npm@latest
+  - npm install -g codecov
+
+before_script:
+
+script:
+  - npm run unit
+  - codecov
+  - npm run build
+
+after_script:
+  - cd ./dist
+  - git init
+  - git config --global user.name "${U_NAME}"
+  - git config --global user.email "${U_EMAIL}"
+  - git add .
+  - git commit -m "Automatically update from travis-ci"
+  - git push --quiet --force  "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
