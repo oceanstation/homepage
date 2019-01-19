@@ -29,7 +29,8 @@ export default {
 <style scoped>
 .aboutme {
   width: 100%;
-  height: 260px;
+  min-width: 1000px;
+  height: 230px;
   padding: 10px 0 20px 0;
   background-color: #2e74c7;
 }

@@ -31,8 +31,7 @@ export default {
 .logo {
   width: 1000px;
   margin: 0 auto;
-  text-align: left;
-  padding-top: 20px;
+  padding: 20px 0px 0px 20px;
   font-size: 36px;
   font-weight: bold;
 }

@@ -28,6 +28,7 @@ export default {
 <style scoped>
 .specializeIn {
   width: 100%;
+  min-width: 1000px;
   height: 420px;
   padding-top: 20px;
   background-color: #1d4192;
