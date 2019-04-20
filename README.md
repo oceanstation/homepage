@@ -1,7 +1,7 @@
 # OCEANStation
 
-[![Build Status](https://travis-ci.com/oceanstation/homepage.svg?token=wncC4HxPS2BqBjybDqmq&branch=master)](https://travis-ci.com/oceanstation/homepage)
-[![Test coverage](https://codecov.io/gh/oceanstation/homepage/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/oceanstation/homepage)
+[![Build Status](https://travis-ci.org/oceanstation/homepage.svg?branch=master)](https://travis-ci.org/oceanstation/homepage)
+[![codecov](https://codecov.io/gh/oceanstation/homepage/branch/master/graph/badge.svg)](https://codecov.io/gh/oceanstation/homepage)
 
 ## Build Setup
 
